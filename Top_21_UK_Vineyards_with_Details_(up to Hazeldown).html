@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_24f0d02411e54f5d304101f406936c74 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_24f0d02411e54f5d304101f406936c74" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_24f0d02411e54f5d304101f406936c74 = L.map(
+                "map_24f0d02411e54f5d304101f406936c74",
+                {
+                    center: [51.0, 0.5],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1c797934c69b6c1a81afe908765d841d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_24f0d02411e54f5d304101f406936c74);
+        
+    
+            var marker_477537df599780105cf41a99d74005c2 = L.marker(
+                [50.923, -1.0758],
+                {}
+            ).addTo(map_24f0d02411e54f5d304101f406936c74);
+        
+    
+            var icon_72b5607e10df7f2a2f140cc34bd91dc9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_477537df599780105cf41a99d74005c2.setIcon(icon_72b5607e10df7f2a2f140cc34bd91dc9);
+        
+    
+        var popup_6e8dfe1766638492945ffdd4c47e6ff4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_037d86a168f348bdb15d99cf31716a9b = $(`<div id="html_037d86a168f348bdb15d99cf31716a9b" style="width: 100.0%; height: 100.0%;">Hambledon Vineyard - New site (58.08 ha) Grapes: Chardonnay, Pinot Noir, Meunier Planted: 2018</div>`)[0];
+            popup_6e8dfe1766638492945ffdd4c47e6ff4.setContent(html_037d86a168f348bdb15d99cf31716a9b);
+        
+
+        marker_477537df599780105cf41a99d74005c2.bindPopup(popup_6e8dfe1766638492945ffdd4c47e6ff4)
+        ;
+
+        
+    
+    
+            var marker_4501ba896b36f6ac75bded46652ce2fd = L.marker(
+                [51.2838, 0.896],
+                {}
+            ).addTo(map_24f0d02411e54f5d304101f406936c74);
+        
+    
+            var icon_faabceb4e4cbebb77c8871c88032eda2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4501ba896b36f6ac75bded46652ce2fd.setIcon(icon_faabceb4e4cbebb77c8871c88032eda2);
+        
+    
+        var popup_66a1e1a878f2562c30905d848871cfcc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2eccd8949da372cabfdd61245869db65 = $(`<div id="html_2eccd8949da372cabfdd61245869db65" style="width: 100.0%; height: 100.0%;">Evremond, Domaine (59.855 ha) Grapes: Chardonnay, Pinot Noir, Meunier Planted: 2017</div>`)[0];
+            popup_66a1e1a878f2562c30905d848871cfcc.setContent(html_2eccd8949da372cabfdd61245869db65);
+        
+
+        marker_4501ba896b36f6ac75bded46652ce2fd.bindPopup(popup_66a1e1a878f2562c30905d848871cfcc)
+        ;
+
+        
+    
+    
+            var marker_cf64d2406cddff2dfd6d497f80e6dc55 = L.marker(
+                [51.0714, 0.8141],
+                {}
+            ).addTo(map_24f0d02411e54f5d304101f406936c74);
+        
+    
+            var icon_a5b62f908b2a984efcf10f0bd98d7b43 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cf64d2406cddff2dfd6d497f80e6dc55.setIcon(icon_a5b62f908b2a984efcf10f0bd98d7b43);
+        
+    
+        var popup_7dba1f9f56048e01c67f637c341b2a9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49c8158cd8119d5a0ea7ebbf4bfc1285 = $(`<div id="html_49c8158cd8119d5a0ea7ebbf4bfc1285" style="width: 100.0%; height: 100.0%;">Gusbourne - Gusbourne Vineyard (61.00 ha) Grapes: Chardonnay, Meunier, Pinot Noir, Precoce Planted: 2004</div>`)[0];
+            popup_7dba1f9f56048e01c67f637c341b2a9f.setContent(html_49c8158cd8119d5a0ea7ebbf4bfc1285);
+        
+
+        marker_cf64d2406cddff2dfd6d497f80e6dc55.bindPopup(popup_7dba1f9f56048e01c67f637c341b2a9f)
+        ;
+
+        
+    
+    
+            var marker_8c59059cf92f4085a2beea80bcd14996 = L.marker(
+                [51.2356, 1.0211],
+                {}
+            ).addTo(map_24f0d02411e54f5d304101f406936c74);
+        
+    
+            var icon_dcfe281af6299acb2c729480ef2d0189 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8c59059cf92f4085a2beea80bcd14996.setIcon(icon_dcfe281af6299acb2c729480ef2d0189);
+        
+    
+        var popup_6bb6d28aa48702ffb1aec677b22fa733 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_034634fad138ab447d0fcdcf9157e756 = $(`<div id="html_034634fad138ab447d0fcdcf9157e756" style="width: 100.0%; height: 100.0%;">Nyetimber - Chartham Downs Vineyard (69.4 ha) Grapes: Chardonnay, Meunier, Precoce Planted: 2017</div>`)[0];
+            popup_6bb6d28aa48702ffb1aec677b22fa733.setContent(html_034634fad138ab447d0fcdcf9157e756);
+        
+
+        marker_8c59059cf92f4085a2beea80bcd14996.bindPopup(popup_6bb6d28aa48702ffb1aec677b22fa733)
+        ;
+
+        
+    
+    
+            var marker_e456b2de9f4b93c939e21bce5213f7d5 = L.marker(
+                [51.2465, -0.3192],
+                {}
+            ).addTo(map_24f0d02411e54f5d304101f406936c74);
+        
+    
+            var icon_0f9f973f4bed85df8bf54188a70a7a69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e456b2de9f4b93c939e21bce5213f7d5.setIcon(icon_0f9f973f4bed85df8bf54188a70a7a69);
+        
+    
+        var popup_c700d8fe54bbab0e3d0c005f86679947 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24b78b6adfa0d8509b1d28f05a72a66a = $(`<div id="html_24b78b6adfa0d8509b1d28f05a72a66a" style="width: 100.0%; height: 100.0%;">Denbies Wine Estate (89.7 ha) Grapes: Chardonnay, Pinot Noir, Meunier, Bacchus Planted: 1986</div>`)[0];
+            popup_c700d8fe54bbab0e3d0c005f86679947.setContent(html_24b78b6adfa0d8509b1d28f05a72a66a);
+        
+
+        marker_e456b2de9f4b93c939e21bce5213f7d5.bindPopup(popup_c700d8fe54bbab0e3d0c005f86679947)
+        ;
+
+        
+    
+    
+            var marker_ef50d9305f9610004b0ed76a176d3048 = L.marker(
+                [51.2886, 0.563],
+                {}
+            ).addTo(map_24f0d02411e54f5d304101f406936c74);
+        
+    
+            var icon_1a43e575927ad4a660f1c9d3b55a68c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ef50d9305f9610004b0ed76a176d3048.setIcon(icon_1a43e575927ad4a660f1c9d3b55a68c0);
+        
+    
+        var popup_6cc2e8f9dfe9a2498307ed62ebf3fe30 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4893288c4782fb6f4e9c4a1f05eb94e7 = $(`<div id="html_4893288c4782fb6f4e9c4a1f05eb94e7" style="width: 100.0%; height: 100.0%;">Nyetimber - Thurnham Vineyard (91.18 ha) Grapes: Chardonnay, Meunier, Precoce Planted: 2020</div>`)[0];
+            popup_6cc2e8f9dfe9a2498307ed62ebf3fe30.setContent(html_4893288c4782fb6f4e9c4a1f05eb94e7);
+        
+
+        marker_ef50d9305f9610004b0ed76a176d3048.bindPopup(popup_6cc2e8f9dfe9a2498307ed62ebf3fe30)
+        ;
+
+        
+    
+    
+            var marker_3a4a093b70387f696d4578cb80ab58c9 = L.marker(
+                [50.9556, -0.4508],
+                {}
+            ).addTo(map_24f0d02411e54f5d304101f406936c74);
+        
+    
+            var icon_c3ce6d5bcc651bebd0861192f3284360 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3a4a093b70387f696d4578cb80ab58c9.setIcon(icon_c3ce6d5bcc651bebd0861192f3284360);
+        
+    
+        var popup_beba9fe36610c273945d0b4e529d67de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2dc5c1d96f27355824bb17cb8fc2702 = $(`<div id="html_b2dc5c1d96f27355824bb17cb8fc2702" style="width: 100.0%; height: 100.0%;">Nyetimber - Manor Vineyard (92.4 ha) Grapes: Chardonnay, Meunier, Precoce Planted: 1988</div>`)[0];
+            popup_beba9fe36610c273945d0b4e529d67de.setContent(html_b2dc5c1d96f27355824bb17cb8fc2702);
+        
+
+        marker_3a4a093b70387f696d4578cb80ab58c9.bindPopup(popup_beba9fe36610c273945d0b4e529d67de)
+        ;
+
+        
+    
+    
+            var marker_1c8c7d10faaaedac8ada685d7a4837c6 = L.marker(
+                [50.8002, 0.1498],
+                {}
+            ).addTo(map_24f0d02411e54f5d304101f406936c74);
+        
+    
+            var icon_a173e8280789ad705671b00e0fcce86d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1c8c7d10faaaedac8ada685d7a4837c6.setIcon(icon_a173e8280789ad705671b00e0fcce86d);
+        
+    
+        var popup_02e8d7ad90ce7189f641ac5991360243 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1e75b43a3cbd258c0c4c938c65c8d2c = $(`<div id="html_a1e75b43a3cbd258c0c4c938c65c8d2c" style="width: 100.0%; height: 100.0%;">Rathfinny Estate (93.5 ha) Grapes: Chardonnay, Meunier, Precoce, Bianco Manzoni Planted: 2012</div>`)[0];
+            popup_02e8d7ad90ce7189f641ac5991360243.setContent(html_a1e75b43a3cbd258c0c4c938c65c8d2c);
+        
+
+        marker_1c8c7d10faaaedac8ada685d7a4837c6.bindPopup(popup_02e8d7ad90ce7189f641ac5991360243)
+        ;
+
+        
+    
+    
+            var marker_d07cf7a903ba5f5183c1427c2c1e67dc = L.marker(
+                [51.2954, 0.5375],
+                {}
+            ).addTo(map_24f0d02411e54f5d304101f406936c74);
+        
+    
+            var icon_0c4325307ed3b2e61d86716ec9100e41 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d07cf7a903ba5f5183c1427c2c1e67dc.setIcon(icon_0c4325307ed3b2e61d86716ec9100e41);
+        
+    
+        var popup_3deca365b1345bc969681a9404cd5439 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1bd3f46ed5faf5b2662e405967cc2ee9 = $(`<div id="html_1bd3f46ed5faf5b2662e405967cc2ee9" style="width: 100.0%; height: 100.0%;">Chapel Down Wines - Boxley Abbey Vineyard (157.7 ha) Grapes: Chardonnay, Pinot Blanc, Pinot Noir Planted: 2019</div>`)[0];
+            popup_3deca365b1345bc969681a9404cd5439.setContent(html_1bd3f46ed5faf5b2662e405967cc2ee9);
+        
+
+        marker_d07cf7a903ba5f5183c1427c2c1e67dc.bindPopup(popup_3deca365b1345bc969681a9404cd5439)
+        ;
+
+        
+    
+    
+            var marker_4072080f5a6ef290344298fcb7954e99 = L.marker(
+                [51.3591, 0.3372],
+                {}
+            ).addTo(map_24f0d02411e54f5d304101f406936c74);
+        
+    
+            var icon_90c96d1170af92577669f4d56a990ba8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4072080f5a6ef290344298fcb7954e99.setIcon(icon_90c96d1170af92577669f4d56a990ba8);
+        
+    
+        var popup_6f6346563b0e9ed2d1df256dc58b778d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cdd1b663e452654034c28c1b7a97cb6c = $(`<div id="html_cdd1b663e452654034c28c1b7a97cb6c" style="width: 100.0%; height: 100.0%;">MDCV Ltd - Silverhand Estate (252.3 ha) Grapes: Biodynamic Planted: 2019</div>`)[0];
+            popup_6f6346563b0e9ed2d1df256dc58b778d.setContent(html_cdd1b663e452654034c28c1b7a97cb6c);
+        
+
+        marker_4072080f5a6ef290344298fcb7954e99.bindPopup(popup_6f6346563b0e9ed2d1df256dc58b778d)
+        ;
+
+        
+    
+    
+            var marker_8beddeb49e9e7065f7e04ab5b7c4a0a4 = L.marker(
+                [51.3156, 0.5381],
+                {}
+            ).addTo(map_24f0d02411e54f5d304101f406936c74);
+        
+    
+            var icon_47224732f71d43fab95bcc069c0a9fe2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8beddeb49e9e7065f7e04ab5b7c4a0a4.setIcon(icon_47224732f71d43fab95bcc069c0a9fe2);
+        
+    
+        var popup_8b0b04971a0773b70db1c5190af32e53 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79dcc2b15503ef0a9d425e44ded6ff13 = $(`<div id="html_79dcc2b15503ef0a9d425e44ded6ff13" style="width: 100.0%; height: 100.0%;">Chapel Down Wines - Kit's Coty Vineyard (40.1 ha) Grapes: Chardonnay, Bacchus, Pinot Noir, Meunier Planted: 2008</div>`)[0];
+            popup_8b0b04971a0773b70db1c5190af32e53.setContent(html_79dcc2b15503ef0a9d425e44ded6ff13);
+        
+
+        marker_8beddeb49e9e7065f7e04ab5b7c4a0a4.bindPopup(popup_8b0b04971a0773b70db1c5190af32e53)
+        ;
+
+        
+    
+    
+            var marker_92964ef4eb99315365342629eba37d65 = L.marker(
+                [51.2977, 0.5454],
+                {}
+            ).addTo(map_24f0d02411e54f5d304101f406936c74);
+        
+    
+            var icon_42cf05779a4d12ff2eca0a252ae9429b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_92964ef4eb99315365342629eba37d65.setIcon(icon_42cf05779a4d12ff2eca0a252ae9429b);
+        
+    
+        var popup_a964fad90b69eef79bc6240911fd64b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ba3a76419dc58a57b7e94e18bb9e3de = $(`<div id="html_4ba3a76419dc58a57b7e94e18bb9e3de" style="width: 100.0%; height: 100.0%;">Chapel Down Wines - Court Lodge Vineyard (43.7 ha) Grapes: Chardonnay, Pinot Noir, Meunier Planted: 2015</div>`)[0];
+            popup_a964fad90b69eef79bc6240911fd64b4.setContent(html_4ba3a76419dc58a57b7e94e18bb9e3de);
+        
+
+        marker_92964ef4eb99315365342629eba37d65.bindPopup(popup_a964fad90b69eef79bc6240911fd64b4)
+        ;
+
+        
+    
+    
+            var marker_bad8053568146509570416d1c1df57bc = L.marker(
+                [50.882, -0.7303],
+                {}
+            ).addTo(map_24f0d02411e54f5d304101f406936c74);
+        
+    
+            var icon_4cebd9e9f66596e774b575550f495bc1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bad8053568146509570416d1c1df57bc.setIcon(icon_4cebd9e9f66596e774b575550f495bc1);
+        
+    
+        var popup_05a76a529f2e600965cafa37ffffd8f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b95c7824e94cef81ca90220728f9eb10 = $(`<div id="html_b95c7824e94cef81ca90220728f9eb10" style="width: 100.0%; height: 100.0%;">Tinwood Estate (44.624 ha) Grapes: Chardonnay, Meunier, Precoce Planted: 2007</div>`)[0];
+            popup_05a76a529f2e600965cafa37ffffd8f1.setContent(html_b95c7824e94cef81ca90220728f9eb10);
+        
+
+        marker_bad8053568146509570416d1c1df57bc.bindPopup(popup_05a76a529f2e600965cafa37ffffd8f1)
+        ;
+
+        
+    
+    
+            var marker_3020d606d1bbe1113f0a39fe71b506f4 = L.marker(
+                [51.1521, 0.9288],
+                {}
+            ).addTo(map_24f0d02411e54f5d304101f406936c74);
+        
+    
+            var icon_e3fab7cc0728156f4f164e5315f0f481 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3020d606d1bbe1113f0a39fe71b506f4.setIcon(icon_e3fab7cc0728156f4f164e5315f0f481);
+        
+    
+        var popup_4068d0d8d316d11f6722aedc80b5fa3c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ca77a16a3068754a006803bdac5fc85 = $(`<div id="html_2ca77a16a3068754a006803bdac5fc85" style="width: 100.0%; height: 100.0%;">Chapel Down Wines - Buckwell Vineyard (47.4 ha) Grapes: Chardonnay, Pinot Noir Planted: 2024</div>`)[0];
+            popup_4068d0d8d316d11f6722aedc80b5fa3c.setContent(html_2ca77a16a3068754a006803bdac5fc85);
+        
+
+        marker_3020d606d1bbe1113f0a39fe71b506f4.bindPopup(popup_4068d0d8d316d11f6722aedc80b5fa3c)
+        ;
+
+        
+    
+    
+            var marker_9472419f79b88dab1d38d4a62106d343 = L.marker(
+                [51.7313, 0.6145],
+                {}
+            ).addTo(map_24f0d02411e54f5d304101f406936c74);
+        
+    
+            var icon_6b6dc563d3bd8925cfb641173cddf580 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9472419f79b88dab1d38d4a62106d343.setIcon(icon_6b6dc563d3bd8925cfb641173cddf580);
+        
+    
+        var popup_6dc344cb47f4ddef15d0104f5b71deff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60c6fc5e0a712a159c8fc4cc77691a3d = $(`<div id="html_60c6fc5e0a712a159c8fc4cc77691a3d" style="width: 100.0%; height: 100.0%;">New Hall Vineyards (48.56 ha) Grapes: Acolon, Bacchus, Chardonnay, Huxelrebe, Müller-Thurgau, Ortega Planted: 1969</div>`)[0];
+            popup_6dc344cb47f4ddef15d0104f5b71deff.setContent(html_60c6fc5e0a712a159c8fc4cc77691a3d);
+        
+
+        marker_9472419f79b88dab1d38d4a62106d343.bindPopup(popup_6dc344cb47f4ddef15d0104f5b71deff)
+        ;
+
+        
+    
+    
+            var marker_7eb63a32fe41c95be7fc010955096c78 = L.marker(
+                [51.0667, -1.3806],
+                {}
+            ).addTo(map_24f0d02411e54f5d304101f406936c74);
+        
+    
+            var icon_2d92dc68c4f1bf37f0dfbf483ca0a0f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7eb63a32fe41c95be7fc010955096c78.setIcon(icon_2d92dc68c4f1bf37f0dfbf483ca0a0f7);
+        
+    
+        var popup_95c556e241c49451e8931fd3788191c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e90455415a959719dcc9bf4ea436f7cb = $(`<div id="html_e90455415a959719dcc9bf4ea436f7cb" style="width: 100.0%; height: 100.0%;">Nyetimber - Hazeldown Vineyard (32.81 ha) Grapes: Chardonnay, Meunier, Precoce Planted: 2010</div>`)[0];
+            popup_95c556e241c49451e8931fd3788191c0.setContent(html_e90455415a959719dcc9bf4ea436f7cb);
+        
+
+        marker_7eb63a32fe41c95be7fc010955096c78.bindPopup(popup_95c556e241c49451e8931fd3788191c0)
+        ;
+
+        
+    
+    
+            var marker_26ed052df5a6d7546cb442c86eae8e4e = L.marker(
+                [52.2161, -2.1805],
+                {}
+            ).addTo(map_24f0d02411e54f5d304101f406936c74);
+        
+    
+            var icon_4ff6e8196c6adbabf1f92f79da7d1dfb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_26ed052df5a6d7546cb442c86eae8e4e.setIcon(icon_4ff6e8196c6adbabf1f92f79da7d1dfb);
+        
+    
+        var popup_2569fb1b90f5f3ffac154f7db3ed8f11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b8d748af6b496e69962b814e171e27c0 = $(`<div id="html_b8d748af6b496e69962b814e171e27c0" style="width: 100.0%; height: 100.0%;">Lower Smite Farm (34.5 ha) Grapes: Organic Planted: 0</div>`)[0];
+            popup_2569fb1b90f5f3ffac154f7db3ed8f11.setContent(html_b8d748af6b496e69962b814e171e27c0);
+        
+
+        marker_26ed052df5a6d7546cb442c86eae8e4e.bindPopup(popup_2569fb1b90f5f3ffac154f7db3ed8f11)
+        ;
+
+        
+    
+    
+            var marker_915fa267dc2d598b351d558ea6685b96 = L.marker(
+                [50.9856, -0.6498],
+                {}
+            ).addTo(map_24f0d02411e54f5d304101f406936c74);
+        
+    
+            var icon_f120e6db1b077d2bc3c1f6a926ac1748 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_915fa267dc2d598b351d558ea6685b96.setIcon(icon_f120e6db1b077d2bc3c1f6a926ac1748);
+        
+    
+        var popup_f2dc68846a64d6166963322c1a33e455 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bbe80b6aa62c7e42126965b50736d8d6 = $(`<div id="html_bbe80b6aa62c7e42126965b50736d8d6" style="width: 100.0%; height: 100.0%;">Nyetimber - Tillington Vineyard (37.39 ha) Grapes: Chardonnay, Meunier, Precoce Planted: 2007</div>`)[0];
+            popup_f2dc68846a64d6166963322c1a33e455.setContent(html_bbe80b6aa62c7e42126965b50736d8d6);
+        
+
+        marker_915fa267dc2d598b351d558ea6685b96.bindPopup(popup_f2dc68846a64d6166963322c1a33e455)
+        ;
+
+        
+    
+    
+            var marker_d4dfe3e08a5db7e3677019a95e4f4ebd = L.marker(
+                [51.6471, 0.7571],
+                {}
+            ).addTo(map_24f0d02411e54f5d304101f406936c74);
+        
+    
+            var icon_7d815adb7aa31efe4c6ed179b51566f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d4dfe3e08a5db7e3677019a95e4f4ebd.setIcon(icon_7d815adb7aa31efe4c6ed179b51566f8);
+        
+    
+        var popup_fa8abc9e34c8c2977c889e8181ed7bc8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8357ce0c80351f17e1746f288157f5ff = $(`<div id="html_8357ce0c80351f17e1746f288157f5ff" style="width: 100.0%; height: 100.0%;">MDCV Ltd - Althorne Vineyard (37.64 ha) Grapes: Organic Planted: 2020</div>`)[0];
+            popup_fa8abc9e34c8c2977c889e8181ed7bc8.setContent(html_8357ce0c80351f17e1746f288157f5ff);
+        
+
+        marker_d4dfe3e08a5db7e3677019a95e4f4ebd.bindPopup(popup_fa8abc9e34c8c2977c889e8181ed7bc8)
+        ;
+
+        
+    
+    
+            var marker_cdef3df26db31d96c3fbb027df45d297 = L.marker(
+                [51.0767, -1.1676],
+                {}
+            ).addTo(map_24f0d02411e54f5d304101f406936c74);
+        
+    
+            var icon_6058e27eb3187cad8afe09395301c113 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cdef3df26db31d96c3fbb027df45d297.setIcon(icon_6058e27eb3187cad8afe09395301c113);
+        
+    
+        var popup_ffa18057a73c26eab322b5896168be5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_625404f7031c2934da3613840130985a = $(`<div id="html_625404f7031c2934da3613840130985a" style="width: 100.0%; height: 100.0%;">Pinglestone Estate Vineyard (40.00 ha) Grapes: Chardonnay, Pinot Noir, Meunier, Pinot Gris Planted: 2018</div>`)[0];
+            popup_ffa18057a73c26eab322b5896168be5f.setContent(html_625404f7031c2934da3613840130985a);
+        
+
+        marker_cdef3df26db31d96c3fbb027df45d297.bindPopup(popup_ffa18057a73c26eab322b5896168be5f)
+        ;
+
+        
+    
+    
+            var marker_52fb9ea9d0686f479c75a531568adb85 = L.marker(
+                [51.0425, 0.5718],
+                {}
+            ).addTo(map_24f0d02411e54f5d304101f406936c74);
+        
+    
+            var icon_b5238b1fc65111769653fbe449e0ab02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_52fb9ea9d0686f479c75a531568adb85.setIcon(icon_b5238b1fc65111769653fbe449e0ab02);
+        
+    
+        var popup_77cdee0e08eef52e4ff5682cbe5d6603 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41a03f57c8db902483b67a15494866a0 = $(`<div id="html_41a03f57c8db902483b67a15494866a0" style="width: 100.0%; height: 100.0%;">MDCV Ltd - Old Place Farm Vineyard (40.06 ha) Grapes: Auxerrois, Bacchus, Blauburger Planted: 1981</div>`)[0];
+            popup_77cdee0e08eef52e4ff5682cbe5d6603.setContent(html_41a03f57c8db902483b67a15494866a0);
+        
+
+        marker_52fb9ea9d0686f479c75a531568adb85.bindPopup(popup_77cdee0e08eef52e4ff5682cbe5d6603)
+        ;
+
+        
+    
+</script>
+</html>

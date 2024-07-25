@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8e22513feba49286d25230b0f0087880 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8e22513feba49286d25230b0f0087880" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8e22513feba49286d25230b0f0087880 = L.map(
+                "map_8e22513feba49286d25230b0f0087880",
+                {
+                    center: [51.5, -0.1],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1b1d5eefb0a6fb8a4ece33f9b5f954ac = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8e22513feba49286d25230b0f0087880);
+        
+    
+            var marker_9092b8dc427a8b3c5e6c50e6fee7821c = L.marker(
+                [51.3591, 0.3372],
+                {}
+            ).addTo(map_8e22513feba49286d25230b0f0087880);
+        
+    
+            var icon_6d70bf09b580683d71f2afe75911e600 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9092b8dc427a8b3c5e6c50e6fee7821c.setIcon(icon_6d70bf09b580683d71f2afe75911e600);
+        
+    
+        var popup_4787c68964b48fed373aa236c984cc47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f3aabbc667306633fee2295ff3453d4 = $(`<div id="html_0f3aabbc667306633fee2295ff3453d4" style="width: 100.0%; height: 100.0%;">MDCV Ltd - Silverhand Estate Grapes: Biodynamic Planted: 2019 Hectares: 252.3</div>`)[0];
+            popup_4787c68964b48fed373aa236c984cc47.setContent(html_0f3aabbc667306633fee2295ff3453d4);
+        
+
+        marker_9092b8dc427a8b3c5e6c50e6fee7821c.bindPopup(popup_4787c68964b48fed373aa236c984cc47)
+        ;
+
+        
+    
+    
+            var marker_2ed3a19c6ffda1d6089dfec5c17cbc27 = L.marker(
+                [51.0425, 0.5718],
+                {}
+            ).addTo(map_8e22513feba49286d25230b0f0087880);
+        
+    
+            var icon_730b20d8c267d9ecade7808c9e368eb0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2ed3a19c6ffda1d6089dfec5c17cbc27.setIcon(icon_730b20d8c267d9ecade7808c9e368eb0);
+        
+    
+        var popup_4122c7b63f98251190321a60efe5919a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59e98293a728a6c93603e6494cde71c7 = $(`<div id="html_59e98293a728a6c93603e6494cde71c7" style="width: 100.0%; height: 100.0%;">MDCV Ltd - Old Place Farm Vineyard Grapes: Auxerrois, Bacchus, Blauburger, Faberrebe, Kerner, Precoce, Regner, Reich, Seyval Blanc Planted: 1981 Hectares: 40.06</div>`)[0];
+            popup_4122c7b63f98251190321a60efe5919a.setContent(html_59e98293a728a6c93603e6494cde71c7);
+        
+
+        marker_2ed3a19c6ffda1d6089dfec5c17cbc27.bindPopup(popup_4122c7b63f98251190321a60efe5919a)
+        ;
+
+        
+    
+    
+            var marker_750c4b2d396b3c1d31935a69a351373a = L.marker(
+                [51.6471, 0.7571],
+                {}
+            ).addTo(map_8e22513feba49286d25230b0f0087880);
+        
+    
+            var icon_15d55ad436767fc01f5d51ca9726a408 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_750c4b2d396b3c1d31935a69a351373a.setIcon(icon_15d55ad436767fc01f5d51ca9726a408);
+        
+    
+        var popup_ed8c092b32f6d7c3cb04faac0b0b43cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e6cd4a80080ac70a86215875401eafe = $(`<div id="html_7e6cd4a80080ac70a86215875401eafe" style="width: 100.0%; height: 100.0%;">MDCV Ltd - Althorne Vineyard Grapes: Organic Planted: 2020 Hectares: 37.64</div>`)[0];
+            popup_ed8c092b32f6d7c3cb04faac0b0b43cf.setContent(html_7e6cd4a80080ac70a86215875401eafe);
+        
+
+        marker_750c4b2d396b3c1d31935a69a351373a.bindPopup(popup_ed8c092b32f6d7c3cb04faac0b0b43cf)
+        ;
+
+        
+    
+    
+            var marker_e0ca39ac7af47a2ff8b56e19dc16b3e0 = L.marker(
+                [52.2161, -2.1805],
+                {}
+            ).addTo(map_8e22513feba49286d25230b0f0087880);
+        
+    
+            var icon_98fff4d74b192ef735878aa0d2af053a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e0ca39ac7af47a2ff8b56e19dc16b3e0.setIcon(icon_98fff4d74b192ef735878aa0d2af053a);
+        
+    
+        var popup_1bf0d08458449349bbefeb7cb831bdc3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba31b51a505f281cae353390b091efa1 = $(`<div id="html_ba31b51a505f281cae353390b091efa1" style="width: 100.0%; height: 100.0%;">Lower Smite Farm Grapes: Organic Planted: 0 Hectares: 34.5</div>`)[0];
+            popup_1bf0d08458449349bbefeb7cb831bdc3.setContent(html_ba31b51a505f281cae353390b091efa1);
+        
+
+        marker_e0ca39ac7af47a2ff8b56e19dc16b3e0.bindPopup(popup_1bf0d08458449349bbefeb7cb831bdc3)
+        ;
+
+        
+    
+    
+            var marker_195244ceca69bd266e63135b8b437781 = L.marker(
+                [51.0708, 0.0245],
+                {}
+            ).addTo(map_8e22513feba49286d25230b0f0087880);
+        
+    
+            var icon_2597d295585c9643aade54d41970de12 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_195244ceca69bd266e63135b8b437781.setIcon(icon_2597d295585c9643aade54d41970de12);
+        
+    
+        var popup_c21e309faa1c6d52a7084abafb7d20b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fcabf825c43c88985aa7db6f7e349276 = $(`<div id="html_fcabf825c43c88985aa7db6f7e349276" style="width: 100.0%; height: 100.0%;">MDCV Ltd - Kingscote Vineyard Grapes: Bacchus, Chardonnay, Meunier, Pinot Blanc, Pinot Noir, Seyval Blanc Planted: 2011 Hectares: 24.28</div>`)[0];
+            popup_c21e309faa1c6d52a7084abafb7d20b8.setContent(html_fcabf825c43c88985aa7db6f7e349276);
+        
+
+        marker_195244ceca69bd266e63135b8b437781.bindPopup(popup_c21e309faa1c6d52a7084abafb7d20b8)
+        ;
+
+        
+    
+    
+            var marker_35ed01fed97a298c312238053a1a2cb9 = L.marker(
+                [50.9951, 0.6749],
+                {}
+            ).addTo(map_8e22513feba49286d25230b0f0087880);
+        
+    
+            var icon_898964b686de30f65d925bbb122a9aa7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_35ed01fed97a298c312238053a1a2cb9.setIcon(icon_898964b686de30f65d925bbb122a9aa7);
+        
+    
+        var popup_6a6e73fe0c76af2a82b0cf4dac1575a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9655a30ef43340fc57f5198a603621a4 = $(`<div id="html_9655a30ef43340fc57f5198a603621a4" style="width: 100.0%; height: 100.0%;">Oxney Organic Estate Grapes: Chardonnay, Meunier, Precoce, Seyval Blanc Planted: 2012 Hectares: 18.34</div>`)[0];
+            popup_6a6e73fe0c76af2a82b0cf4dac1575a1.setContent(html_9655a30ef43340fc57f5198a603621a4);
+        
+
+        marker_35ed01fed97a298c312238053a1a2cb9.bindPopup(popup_6a6e73fe0c76af2a82b0cf4dac1575a1)
+        ;
+
+        
+    
+    
+            var marker_73b074ab48b72cfeb8c736cdb1a8d178 = L.marker(
+                [50.9333, 0.7333],
+                {}
+            ).addTo(map_8e22513feba49286d25230b0f0087880);
+        
+    
+            var icon_2e0b169f06ab80a829aed3a9ef015db3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_73b074ab48b72cfeb8c736cdb1a8d178.setIcon(icon_2e0b169f06ab80a829aed3a9ef015db3);
+        
+    
+        var popup_9217f83a4aac6353bffed8294b4629ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e2d2c8b30e57b8e6c0dcfcacb188135 = $(`<div id="html_1e2d2c8b30e57b8e6c0dcfcacb188135" style="width: 100.0%; height: 100.0%;">Oxney Organic Estate-Tillingham Vineyard Grapes: Auxerrois, Bacchus, Chardonnay, Dornfelder, Faberrebe, Kerner, Müller-Thurgau, Pinot Noir, Regent, Rondo Planted: 2018 Hectares: 10.2</div>`)[0];
+            popup_9217f83a4aac6353bffed8294b4629ed.setContent(html_1e2d2c8b30e57b8e6c0dcfcacb188135);
+        
+
+        marker_73b074ab48b72cfeb8c736cdb1a8d178.bindPopup(popup_9217f83a4aac6353bffed8294b4629ed)
+        ;
+
+        
+    
+    
+            var marker_f2b60bec005595df1c29e2bec034deb0 = L.marker(
+                [50.9636, 0.203],
+                {}
+            ).addTo(map_8e22513feba49286d25230b0f0087880);
+        
+    
+            var icon_0a6d3dd530d754dbf3a5818a2017b21e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f2b60bec005595df1c29e2bec034deb0.setIcon(icon_0a6d3dd530d754dbf3a5818a2017b21e);
+        
+    
+        var popup_790335e91b26a3b9f5d9bcdf223dbbe9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f8e0cb71991a6b926ff1093d8ed2c54 = $(`<div id="html_1f8e0cb71991a6b926ff1093d8ed2c54" style="width: 100.0%; height: 100.0%;">Davenport Vineyard - Hazel Street Grapes: Bacchus, Chardonnay, Meunier, Ortega, Precoce Planted: 2017 Hectares: 10.0</div>`)[0];
+            popup_790335e91b26a3b9f5d9bcdf223dbbe9.setContent(html_1f8e0cb71991a6b926ff1093d8ed2c54);
+        
+
+        marker_f2b60bec005595df1c29e2bec034deb0.bindPopup(popup_790335e91b26a3b9f5d9bcdf223dbbe9)
+        ;
+
+        
+    
+    
+            var marker_d9abee68c830cc24d28f8a552eb79397 = L.marker(
+                [51.2313, -0.4697],
+                {}
+            ).addTo(map_8e22513feba49286d25230b0f0087880);
+        
+    
+            var icon_b195a1c3d923c5a57430040532e8206c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d9abee68c830cc24d28f8a552eb79397.setIcon(icon_b195a1c3d923c5a57430040532e8206c);
+        
+    
+        var popup_b473cc7922c0da7505759292b05ca8d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86ddd59dc5e41ef2366f937eb68ec33f = $(`<div id="html_86ddd59dc5e41ef2366f937eb68ec33f" style="width: 100.0%; height: 100.0%;">Albury Organic Vineyard Grapes: Chardonnay, Meunier, Pinot Noir, Precoce, Seyval Blanc Planted: 2009 Hectares: 9.0</div>`)[0];
+            popup_b473cc7922c0da7505759292b05ca8d5.setContent(html_86ddd59dc5e41ef2366f937eb68ec33f);
+        
+
+        marker_d9abee68c830cc24d28f8a552eb79397.bindPopup(popup_b473cc7922c0da7505759292b05ca8d5)
+        ;
+
+        
+    
+    
+            var marker_2dd1daa919c28c247ecfe1da7c055dfd = L.marker(
+                [51.1225, -1.0892],
+                {}
+            ).addTo(map_8e22513feba49286d25230b0f0087880);
+        
+    
+            var icon_bca315f4f3dd54ec0cb41ca677892f7e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2dd1daa919c28c247ecfe1da7c055dfd.setIcon(icon_bca315f4f3dd54ec0cb41ca677892f7e);
+        
+    
+        var popup_53dc361c90596c04c592e706510ad883 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a0d5952d162e48cb0795cf75a9fe5f2 = $(`<div id="html_1a0d5952d162e48cb0795cf75a9fe5f2" style="width: 100.0%; height: 100.0%;">Hattingley Valley Vineyard Grapes: Bacchus, Chardonnay, Pinot Gris, Meunier, Pinot Noir, Seyval Blanc Planted: 2008 Hectares: 9.0</div>`)[0];
+            popup_53dc361c90596c04c592e706510ad883.setContent(html_1a0d5952d162e48cb0795cf75a9fe5f2);
+        
+
+        marker_2dd1daa919c28c247ecfe1da7c055dfd.bindPopup(popup_53dc361c90596c04c592e706510ad883)
+        ;
+
+        
+    
+    
+            var marker_799a0d29afcfbef3a5e65cd0f9c997bb = L.marker(
+                [50.9828, 0.5215],
+                {}
+            ).addTo(map_8e22513feba49286d25230b0f0087880);
+        
+    
+            var icon_93d5dd58c639361386f1b89a9f378cd4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_799a0d29afcfbef3a5e65cd0f9c997bb.setIcon(icon_93d5dd58c639361386f1b89a9f378cd4);
+        
+    
+        var popup_9734c79fc53241e0cda866f51f90d3a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe89572bfc5c9aeece3e775a00154821 = $(`<div id="html_fe89572bfc5c9aeece3e775a00154821" style="width: 100.0%; height: 100.0%;">MDCV Ltd - Sedlescombe Organic Vineyard Grapes: Monarch, Pinot Noir, Regent, Solaris Planted: 1979 Hectares: 8.903</div>`)[0];
+            popup_9734c79fc53241e0cda866f51f90d3a8.setContent(html_fe89572bfc5c9aeece3e775a00154821);
+        
+
+        marker_799a0d29afcfbef3a5e65cd0f9c997bb.bindPopup(popup_9734c79fc53241e0cda866f51f90d3a8)
+        ;
+
+        
+    
+    
+            var marker_89423d4d1fc07fc4bc5ef7a42b500b40 = L.marker(
+                [51.4592, -0.1057],
+                {}
+            ).addTo(map_8e22513feba49286d25230b0f0087880);
+        
+    
+            var icon_8391b9d3d9b53dc1f3c29cb3ea89ab22 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_89423d4d1fc07fc4bc5ef7a42b500b40.setIcon(icon_8391b9d3d9b53dc1f3c29cb3ea89ab22);
+        
+    
+        var popup_afa39ac0bba31d7e73f4582c5c929079 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4221ca8c5a91ad5a006c63f83295ccf9 = $(`<div id="html_4221ca8c5a91ad5a006c63f83295ccf9" style="width: 100.0%; height: 100.0%;">Clayton Hills Vineyard Grapes: Bacchus, Chardonnay, Meunier, Pinot Blanc, Pinot Noir Planted: 2017 Hectares: 6.5</div>`)[0];
+            popup_afa39ac0bba31d7e73f4582c5c929079.setContent(html_4221ca8c5a91ad5a006c63f83295ccf9);
+        
+
+        marker_89423d4d1fc07fc4bc5ef7a42b500b40.bindPopup(popup_afa39ac0bba31d7e73f4582c5c929079)
+        ;
+
+        
+    
+    
+            var marker_7d57019d441c3c451762a587991b8306 = L.marker(
+                [51.561, -0.7292],
+                {}
+            ).addTo(map_8e22513feba49286d25230b0f0087880);
+        
+    
+            var icon_1dddc72dcc4f611341cccbe47537984d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7d57019d441c3c451762a587991b8306.setIcon(icon_1dddc72dcc4f611341cccbe47537984d);
+        
+    
+        var popup_4658ca4eb7be18a091d6cb7f6c8ce221 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b93c3e6c4966520db6e1b629d02bbcd8 = $(`<div id="html_b93c3e6c4966520db6e1b629d02bbcd8" style="width: 100.0%; height: 100.0%;">Harrow & Hope Vineyard Grapes: Chardonnay, Meunier, Precoce Planted: 2010 Hectares: 6.5</div>`)[0];
+            popup_4658ca4eb7be18a091d6cb7f6c8ce221.setContent(html_b93c3e6c4966520db6e1b629d02bbcd8);
+        
+
+        marker_7d57019d441c3c451762a587991b8306.bindPopup(popup_4658ca4eb7be18a091d6cb7f6c8ce221)
+        ;
+
+        
+    
+    
+            var marker_95fe2b7b75a443b410250471c9fa28be = L.marker(
+                [51.8733, 0.7526],
+                {}
+            ).addTo(map_8e22513feba49286d25230b0f0087880);
+        
+    
+            var icon_2dbe04668ed63950a1094f21dbaa1c2b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_95fe2b7b75a443b410250471c9fa28be.setIcon(icon_2dbe04668ed63950a1094f21dbaa1c2b);
+        
+    
+        var popup_cffda72f037d08597dc6996561dce154 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3874faaf978cb16b418cb6d4271908af = $(`<div id="html_3874faaf978cb16b418cb6d4271908af" style="width: 100.0%; height: 100.0%;">Teybrook Vineyard Grapes: Not specified Planted: 0 Hectares: 6.19</div>`)[0];
+            popup_cffda72f037d08597dc6996561dce154.setContent(html_3874faaf978cb16b418cb6d4271908af);
+        
+
+        marker_95fe2b7b75a443b410250471c9fa28be.bindPopup(popup_cffda72f037d08597dc6996561dce154)
+        ;
+
+        
+    
+    
+            var marker_6e17c91a61ad926e37d53583facc2828 = L.marker(
+                [51.8172, -2.7076],
+                {}
+            ).addTo(map_8e22513feba49286d25230b0f0087880);
+        
+    
+            var icon_31eea1faa7840a566583d596385342c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6e17c91a61ad926e37d53583facc2828.setIcon(icon_31eea1faa7840a566583d596385342c9);
+        
+    
+        var popup_81853e7b3eaadd6715e36040536545e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_533041c7729e8776ab69a2e84fd8603f = $(`<div id="html_533041c7729e8776ab69a2e84fd8603f" style="width: 100.0%; height: 100.0%;">Ancre Hill Vineyard - Newton Court Farm Vineyard Grapes: Chardonnay, Pinot Noir Planted: 2016 Hectares: 5.5</div>`)[0];
+            popup_81853e7b3eaadd6715e36040536545e6.setContent(html_533041c7729e8776ab69a2e84fd8603f);
+        
+
+        marker_6e17c91a61ad926e37d53583facc2828.bindPopup(popup_81853e7b3eaadd6715e36040536545e6)
+        ;
+
+        
+    
+    
+            var marker_4277fda0a290a63c1e874601137a8977 = L.marker(
+                [51.0622, 0.8537],
+                {}
+            ).addTo(map_8e22513feba49286d25230b0f0087880);
+        
+    
+            var icon_2802ba53d0a9e9dccfabce893a712444 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4277fda0a290a63c1e874601137a8977.setIcon(icon_2802ba53d0a9e9dccfabce893a712444);
+        
+    
+        var popup_039522c0815fb9c32b37765f0e898974 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_78f1944b0d59d0bee44498907288e016 = $(`<div id="html_78f1944b0d59d0bee44498907288e016" style="width: 100.0%; height: 100.0%;">Ham Street Wines Grapes: Bacchus, Chardonnay, Meunier, Pinot Gris, Pinot Noir Planted: 2019 Hectares: 4.0236</div>`)[0];
+            popup_039522c0815fb9c32b37765f0e898974.setContent(html_78f1944b0d59d0bee44498907288e016);
+        
+
+        marker_4277fda0a290a63c1e874601137a8977.bindPopup(popup_039522c0815fb9c32b37765f0e898974)
+        ;
+
+        
+    
+    
+            var marker_3288bc2d89ee8bc80e4737f1914ffe35 = L.marker(
+                [51.674, -0.0834],
+                {}
+            ).addTo(map_8e22513feba49286d25230b0f0087880);
+        
+    
+            var icon_f6ab18c1af650f3ee5afd65e52cdfc06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3288bc2d89ee8bc80e4737f1914ffe35.setIcon(icon_f6ab18c1af650f3ee5afd65e52cdfc06);
+        
+    
+        var popup_177db8fb0618fbde19f06bbf8a400eca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12f7929e68ce24cbaf7b0d1425447c0d = $(`<div id="html_12f7929e68ce24cbaf7b0d1425447c0d" style="width: 100.0%; height: 100.0%;">Forty Hall Vineyard Grapes: Bacchus, Chardonnay, Meunier, Ortega, Pinot Noir Planted: 2009 Hectares: 3.31</div>`)[0];
+            popup_177db8fb0618fbde19f06bbf8a400eca.setContent(html_12f7929e68ce24cbaf7b0d1425447c0d);
+        
+
+        marker_3288bc2d89ee8bc80e4737f1914ffe35.bindPopup(popup_177db8fb0618fbde19f06bbf8a400eca)
+        ;
+
+        
+    
+    
+            var marker_2c965d3b5129701592d39a320ba72ac8 = L.marker(
+                [51.8189, -2.7101],
+                {}
+            ).addTo(map_8e22513feba49286d25230b0f0087880);
+        
+    
+            var icon_499acb8e70572bbaa886b5a94bc75329 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2c965d3b5129701592d39a320ba72ac8.setIcon(icon_499acb8e70572bbaa886b5a94bc75329);
+        
+    
+        var popup_d8ae5138b6bed977a2ec0ce97f585b8b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac27f54e3ec4f087f55ea717acdc97d9 = $(`<div id="html_ac27f54e3ec4f087f55ea717acdc97d9" style="width: 100.0%; height: 100.0%;">Ancre Hill Vineyard - Rockfield Road Vineyard Grapes: Albarino, Chardonnay, Ortega, Pinot Noir, Rondo Planted: 2006 Hectares: 3.2</div>`)[0];
+            popup_d8ae5138b6bed977a2ec0ce97f585b8b.setContent(html_ac27f54e3ec4f087f55ea717acdc97d9);
+        
+
+        marker_2c965d3b5129701592d39a320ba72ac8.bindPopup(popup_d8ae5138b6bed977a2ec0ce97f585b8b)
+        ;
+
+        
+    
+    
+            var marker_fb8597f575f3df0304e1e1d17986a612 = L.marker(
+                [52.352, 1.5133],
+                {}
+            ).addTo(map_8e22513feba49286d25230b0f0087880);
+        
+    
+            var icon_2ef10874508a58d8d7c7fc5a9b527767 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fb8597f575f3df0304e1e1d17986a612.setIcon(icon_2ef10874508a58d8d7c7fc5a9b527767);
+        
+    
+        var popup_d4e436bb6ef6f32e41ba7057d231f1e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69587388d156343c7dceb8519517a580 = $(`<div id="html_69587388d156343c7dceb8519517a580" style="width: 100.0%; height: 100.0%;">Valley Farm Vineyards Grapes: Pinot Noir, Meunier, Madeleine Angevine, Pinot Gris Planted: 1987 Hectares: 3.2</div>`)[0];
+            popup_d4e436bb6ef6f32e41ba7057d231f1e5.setContent(html_69587388d156343c7dceb8519517a580);
+        
+
+        marker_fb8597f575f3df0304e1e1d17986a612.bindPopup(popup_d4e436bb6ef6f32e41ba7057d231f1e5)
+        ;
+
+        
+    
+    
+            var marker_f41d70dfde49b2995afd1855acca0bda = L.marker(
+                [53.145, -0.4076],
+                {}
+            ).addTo(map_8e22513feba49286d25230b0f0087880);
+        
+    
+            var icon_1fd46bc5de1daa2f31a60a44d2bd3a1d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f41d70dfde49b2995afd1855acca0bda.setIcon(icon_1fd46bc5de1daa2f31a60a44d2bd3a1d);
+        
+    
+        var popup_734d7f7d526aedb26521a71c7db9f568 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb737322457ca4c1326787d12c74e5e0 = $(`<div id="html_cb737322457ca4c1326787d12c74e5e0" style="width: 100.0%; height: 100.0%;">Shire Farm Vineyard (Aura Soma) Grapes: Phoenix, Rondo, Seyval Blanc, Solaris Planted: 2014 Hectares: 2.67</div>`)[0];
+            popup_734d7f7d526aedb26521a71c7db9f568.setContent(html_cb737322457ca4c1326787d12c74e5e0);
+        
+
+        marker_f41d70dfde49b2995afd1855acca0bda.bindPopup(popup_734d7f7d526aedb26521a71c7db9f568)
+        ;
+
+        
+    
+</script>
+</html>
